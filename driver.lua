@@ -220,7 +220,7 @@ function ProcessInputCommand(CMD, tParams)
 		return ProcessInputCommandKey(tonumber(Properties["MENU Mapping"]), CMD, tParams)
 	elseif (CMD == "CANCEL" or CMD == "START_CANCEL" or CMD == "PULSE_CANCEL" or CMD == "STOP_CANCEL" or CMD == "END_CANCEL") then
 		return ProcessInputCommandKey(tonumber(Properties["CANCEL Mapping"]), CMD, tParams)
-	elseif (CMD == "DVR" or CMD == "START_DVR" or CMD == "PULSE_DVR" or CMD == "STOP_DVR" or CMD == "END_DVR") then
+	elseif (CMD == "PVR" or CMD == "START_DVR" or CMD == "PULSE_DVR" or CMD == "STOP_DVR" or CMD == "END_DVR") then
 		return ProcessInputCommandKey(tonumber(Properties["DVR Mapping"]), CMD, tParams)
 	
 	elseif (CMD == "SCAN_REV" or CMD == "START_SCAN_REV" or CMD == "PULSE_SCAN_REV" or CMD == "STOP_SCAN_REV" or CMD == "END_SCAN_REV") then
